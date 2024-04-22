@@ -1,0 +1,151 @@
+.hero {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  border-radius: 20px;
+  }
+
+.hero__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 20px;
+
+  }
+
+.hero__title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 125%;
+  color: #363738;
+  margin-bottom: 32px;
+  &:hover{
+color: crimson;
+    transition: all 1s ease-out;
+  }
+}
+.hero__text {
+  width: 344px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  color: #363738;
+  margin-bottom: 32px;
+  &:hover{
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0015ff;
+    transition: all 1s ease-out;
+  }
+}
+.title__hero {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 150%;
+  color: #000;
+  margin-bottom: 11px;
+  &:hover{
+color: #ff0000;
+    transition: all 1s ease-out;
+  }
+}
+.hero__span {
+  border: 3px solid #ffce50;
+  width: 115px;
+  height: 0px;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.hero__img {
+  width: 344px;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 120px;
+    padding-bottom: 40px;
+  }
+
+  .hero__title {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 125%;
+    text-align: center;
+    color: #363738;
+    margin-bottom: 50px;
+  }
+  .hero__text {
+    width: 690px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #6b6b6c;
+    margin-bottom: 44px;
+  }
+  .title__hero {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #363738;
+  }
+  .hero__span {
+    width: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 70px;
+  }
+  .hero__img {
+    width: 690px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding-top: 110px;
+    padding-bottom: 70px;
+  }
+  .hero__block {
+    flex-direction: row;
+  }
+
+  .hero__title {
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 125%;
+    color: #363738;
+    text-align: start;
+    margin-bottom: 40px;
+  }
+  .hero__text {
+    margin: 0px;
+    width: 525px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6b6b6c;
+    text-align: start;
+  }
+  .title__hero {
+    text-align: start;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  .hero__span {
+    margin: 0px;
+  }
+  .hero__img {
+    width: 635px;
+    border: none;
+  }
+}

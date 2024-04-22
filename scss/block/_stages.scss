@@ -1,0 +1,113 @@
+.stages {
+  padding-bottom: 64px;
+}
+.stages__block{
+  &:hover{
+    padding: 20px;
+    background-color: rgb(9, 210, 166);
+    transition: all 1s ease-out;
+    border: 5px solid crimson;
+  }
+  
+}
+.stages__title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 125%;
+  color: #363738;
+  margin-bottom: 30px;
+  &:hover{
+    color: #fc0000;
+transition: all 1s ease-out;
+  }
+}
+.stages__item {
+  padding-top: 24px;
+  padding-bottom: 32px;
+  padding-left: 47px;
+  padding-right: 24px;
+  border: 2px solid rgb(197, 197, 206);
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+.stages__sub_title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 125%;
+  color: #363738;
+  margin-bottom: 16px;
+
+}
+.stages__text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  color: #6b6b6c;
+
+}
+.stages__img {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .stages {
+    padding-bottom: 88px;
+  }
+  .stages__title {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 125%;
+    color: #363738;
+    margin-bottom: 50px;
+  }
+  .stages__item {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 85px;
+    padding-right: 76px;
+    margin-bottom: 16px;
+  }
+  .stages__sub_title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 125%;
+    color: #363738;
+    margin-bottom: 24px;
+  }
+  .stage__span {
+    border: 3px solid #ffce50;
+    width: 92px;
+    height: 0px;
+    display: block;
+    margin-bottom: 24px;
+  }
+  .stages__text {
+    width: 400px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6b6b6c;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .stages {
+    padding-bottom: 120px;
+  }
+  .stages__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 125%;
+  }
+  .stages__item {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 96px;
+    padding-right: 132px;
+    margin-bottom: 24px;
+    display: flex;
+    gap: 60px;
+  }
+  .stages__img {
+    display: block;
+  }
+}
